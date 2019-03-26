@@ -36,7 +36,7 @@ def create_qr_code(text, filename):
 if __name__ == '__main__':
     args = parse_args()
 
-    create_qr_code(args.text, 'qr_code.png')
+    create_qr_code(args.text, 'full.png')
 
     # slices image and pulls filenames
     image_slicer.slice('full.png', args.width * args.width)
