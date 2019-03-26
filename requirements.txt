@@ -1,0 +1,3 @@
+qrcode
+image_slicer
+fpdf
